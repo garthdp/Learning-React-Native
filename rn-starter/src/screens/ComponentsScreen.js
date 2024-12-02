@@ -1,23 +1,24 @@
 import React from 'react';
 // primitive react elements, similar to html elements
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
 const ComponentsScreen = () => {
+    const greeting = "My name is Garth";
+
     return (
         // JSX
-        <View style={styles.container}>
-            <Text style={styles.text}>Hello, this is the Components Screen!</Text>
+        <View>
+            <Text style={styles.text}>Getting started with react native!</Text>
+            <Text style={styles.name}>{greeting}</Text>
         </View>
     );
 };
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
     text: {
+        fontSize: 45,
+    },
+    name: {
         fontSize: 20,
     },
 });
