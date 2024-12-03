@@ -29,6 +29,14 @@ const HomeScreen = ({ navigation }) => {
         title="Go to ColorMaker Demo"
         onPress={() => navigation.navigate("ColorMaker")}
       />
+      <Button
+        title="Go to Text Demo"
+        onPress={() => navigation.navigate("TextScreen")}
+      />
+      <Button
+        title="Go to Box Demo"
+        onPress={() => navigation.navigate("BoxScreen")}
+      />
     </View>
   );
 };
