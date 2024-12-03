@@ -1,0 +1,4 @@
+how to generate project - npx create-expo-app foodapp --template blank
+                        - npx expo-cli init food
+
+key - a3h4JLwYlgt9vcKpeAeR-UrYkAmMZyYSpyHan-xy8UMocvzRAQGu_LeevTREL11Vg8Znup2gmrrtb3YE0MKnRB5lHxRuXqkJMM58KMsTEcEb4CQeX91zPtJQ40zqZnYx
